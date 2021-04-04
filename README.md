@@ -34,22 +34,27 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 2. Check your project preferences so that you're set to 48KHz sampling 
 
     ![Sample rate settings for project](/Images/projectSettings.png "File > Project Settings or Alt+Enter on Windows")
+
 3. Check your Reaper Audio Device preferences, make sure you're using your ASIO drivers for your soundcard/interface. For my setup, I'm using my Focusrite Saffire Pro40
 
     ![Audio device settings](/Images/reaperPreferences_audioDevice.png "Options > Preferences or CTRL+P on Windows")    
 
     Note that the requested sample rate is 48KHz
 4. Check your Reaper MIDI Device preferences, check that your MIDI interface can be seen by Reaper and is enabled. If it's not enabled, right click the MIDI input interface and enable it. My Focusrite Saffire Pro40 has a 1x1 MIDI 5 pin DIN input/output
+
     ![MIDI device settings](/Images/reaperPreferences_MIDIDevice.png "Options > Preferences or CTRL+P on Windows")
 
 5. Add a new MIDI item by going to Insert > New MIDI Item. Change the track input from an audio input to a MIDI input, in my case Pro40 MIDI All channels. Add a VSTi instrument to the FX panel, and then change the routing so that it no longer goes through the Master Send and is sent through a stereo Hardware Output ReaRoute 1/ReaRoute 2. Record Enable the track with monitoring, and you should be able to see MIDI events come in when you play the RB3 Mustang.
+
     ![MIDI Track setup](/Images/reaper_track1Setup.png "Mutliple steps at once, I know. Check out lastpixel's tutorial if you need more help")
+
     You won't be able to hear anything because we turned off the Master Send. If you're troubleshooting, you can turn this back on in the track routing menu
 6. Add a new audio track by going to Track > Insert New Track or `CTRL+T` on Windows. Set the track input to Stereo ReaRoute 1/ReaRoute 2. Turn on Record Enable and turn on Monitoring. In track routing, optionally add a stereo Hardware Output for ReaRoute 3/ReaRoute 4 (can be used for OBS streaming) 
 
     ![Rocksmith Track setup](/Images/reaper_track2Setup.png "Now we're getting somewhere")
 
 7. Either using RS-Mods or editing the RS_ASIO config file, add the first stereo pair of ReaRoute as outputs and the second stereo pair as inputs
+
     ![RS_ASIO configuration](/Images/rsasioSettings.png "RS_ASIO is picky. It needs to saved exactly like this")
     ![RS-Mods RS_ASIO window](/Images/rsMods_rsasioSEttings.png "It's all teal and stuff")
 
