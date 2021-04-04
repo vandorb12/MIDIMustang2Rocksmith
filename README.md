@@ -56,6 +56,7 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 7. Either using RS-Mods or editing the RS_ASIO config file, add the first stereo pair of ReaRoute as outputs and the second stereo pair as inputs
 
     ![RS_ASIO configuration](/Images/rsasioSettings.png "RS_ASIO is picky. It needs to saved exactly like this")
+    
     ![RS-Mods RS_ASIO window](/Images/rsMods_rsasioSEttings.png "It's all teal and stuff")
 
 8. Boot up Rocksmith 2014 Remastered. You should now have audio from the synth you selected in Reaper going through the game! You're playing with plastic guitars now, you Guitar Hero, you!
