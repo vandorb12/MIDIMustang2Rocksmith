@@ -31,7 +31,7 @@ The following are optional, but will assist greatly with game streaming, effects
 A lot of the necessary setup is based on other tutorials for RS_ASIO. I'm including the general setup here just for flow.
 
 1. Start Reaper 32bit and create a new project. Give the project a name you can remember and save the project in a directory you can remember
-2. Check your project preferences so that you're set to 48KHz sampling ![](../Images/projectSettings.png "File > Project Settings")
+2. Check your project preferences so that you're set to 48KHz sampling ![Sample rate settings for project](/Images/projectSettings.png "File > Project Settings")
 
 ## Limitations (Leave for end)
 
