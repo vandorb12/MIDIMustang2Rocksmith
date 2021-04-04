@@ -56,7 +56,7 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 7. Either using RS-Mods or editing the RS_ASIO config file, add the first stereo pair of ReaRoute as outputs and the second stereo pair as inputs
 
     ![RS_ASIO configuration](/Images/rsasioSettings.png "RS_ASIO is picky. It needs to saved exactly like this")
-    
+
     ![RS-Mods RS_ASIO window](/Images/rsMods_rsasioSEttings.png "It's all teal and stuff")
 
 8. Boot up Rocksmith 2014 Remastered. You should now have audio from the synth you selected in Reaper going through the game! You're playing with plastic guitars now, you Guitar Hero, you!
@@ -68,11 +68,14 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 This is where we talk about extra bits and other ideas
 
 ### Effects:
-    You gotta pick your poison when it comes to this. What do YOU want to sound like? Add a drop tuner, add compression, whatever to your MIDI FX chain! Avoid using any reverb, delay, and excessive overdrive/distortion going in to Rocksmith: use their tools for those effects.
+
+   You gotta pick your poison when it comes to this. What do YOU want to sound like? Add a drop tuner, add compression, whatever to your MIDI FX chain! Avoid using any reverb, delay, and excessive overdrive/distortion going in to Rocksmith: use their tools for those effects.
 ### Streaming:
-    If you continue on with lastpixel's guide, you can use Reaper's ReaRoute to route Rocksmith's audio via ultra-low latency ASIO from Reaper to OBS.
+
+   If you continue on with lastpixel's guide, you can use Reaper's ReaRoute to route Rocksmith's audio via ultra-low latency ASIO from Reaper to OBS.
 ### Recording:
-    Reaper is a DAW after all. Why not record your performance and become an overnight MIDI sensation? With MIDI, you can easily adjust your performance after the fact. Make it look like you really know what you're doing!
+
+   Reaper is a DAW after all. Why not record your performance and become an overnight MIDI sensation? With MIDI, you can easily adjust your performance after the fact. Make it look like you really know what you're doing!
 
 ## Limitations:
 
