@@ -63,6 +63,15 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 9. Check your levels in Reaper so that you are not clipping your MIDI output. Adjust output gain as necessary so that it doesn't clip. Play all strings with a little force to max out the note velocity on each string
 10. Don't forget to recalibrate and save your new Reaper project! 
 
+## To Play:
+
+1. Confirm the Windows can see your MIDI interface
+2. Start Reaper and open up your saved project for playing a plastic guitar in Rocksmith 2014
+3. Confirm that Reaper can see MIDI inputs from the RB3 Mustang
+4. Start Rocksmith 2014
+5. ???
+6. Profit 
+
 ## Extras:
 
 This is where we talk about extra bits and other ideas
