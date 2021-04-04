@@ -93,6 +93,7 @@ Limitations with using this setup as a meaningful way of playing Rocksmith 2014 
 - Batteries, you **HAVE** to use batteries. The RB3 Mustang does not have a DC power input. If you're going to be serious with this, invest in rechargeable AA batteries
 - Rocksmith 2014, at least on Windows, is a 32bit application. I've had more luck running 32bit Reaper than I have with 64bit Reaper. ReaRoute might act funny or not at all with Rocksmith 2014 if you're not using Reaper 32bit
 - The RB3 Mustang only has 17 frets when most guitars have 22 frets; this WILL limit the number of songs you can play
+- There's no easy way to flip the strings for left handed players on the guitar itself
 - You cannot bend notes like you can on a traditional guitar
     - According to the RB3 Mustang [manual](https://www.manualsdir.com/manuals/103077/rock-band-fender-mustang-pro-guitar-rock-band-3.html?page=8), selecting the right MIDI mapping feature will allow pitch bends based on the built in accelerometer position/orientation (limited to one semitone up/down), as well as an analog expression pedal connected to the 3.5mm jack on the RB3 Mustang. The former is difficult to control but fun, and the later I have not tested due to a lack of hardware
 - You cannot mute or finger mute individual strings to prevent them from "ringing out"; playing octaves gets certainly annoying without learning how to chicken pick
