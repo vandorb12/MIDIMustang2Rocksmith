@@ -72,7 +72,7 @@ This is where we talk about extra bits and other ideas
    You gotta pick your poison when it comes to this. What do YOU want to sound like? Add a drop tuner, add compression, whatever to your MIDI FX chain! Avoid using any reverb, delay, and excessive overdrive/distortion going in to Rocksmith: use their tools for those effects.
 ### Streaming:
 
-   If you continue on with lastpixel's guide, you can use Reaper's ReaRoute to route Rocksmith's audio via ultra-low latency ASIO from Reaper to OBS.
+   If you continue on with [lastpixel's guide](https://lastpixel.tv/low-latency-rocksmith-obs-streaming-with-software-effects/), you can use Reaper's ReaRoute to route Rocksmith's audio via ultra-low latency ASIO from Reaper to OBS.
 ### Recording:
 
    Reaper is a DAW after all. Why not record your performance and become an overnight MIDI sensation? With MIDI, you can easily adjust your performance after the fact. Make it look like you really know what you're doing!
@@ -94,12 +94,12 @@ Limitations with using this setup as a meaningful way of playing Rocksmith 2014 
 - In Synth Mode, you must set an initial note velocity by strumming before you can play a note on the fretboard
     - You can have up to 6 different note velocities, one on each string. Experiment!
 - You can only tune up and down by octaves on the fly; for some reason Harmonix and MadCatz didn't think about people who like to play in different tunings
-    - You can use something like Pitchproof by Aegean Music to access different standard tunings like C# Standard or Eb Standard [Site](https://aegeanmusic.com/pitchproof-specs)
+    - You can use something like Pitchproof by Aegean Music to access different standard tunings like C# Standard or Eb Standard [Website](https://aegeanmusic.com/pitchproof-specs)
 - No drop tunings or slack tunings without some major MIDI intervention
     - Luckily, each string of the RB3 Mustang is mapped to a different MIDI channel, so with the right tools you can rectify this limitation: I just currently don't know how
 - Depending on your interface and VSTi/Sampler, latency will increase, but it should not be TOO bad
 - Remember that Rocksmith 2014 works by detecting the pitch of the notes out of your electric guitar or bass. For best results, use a sample or VSTi that mimics a plucked stringed instrument, like a harp, harpsichord, lute, etc
     - I've had some great success with e-pianos that have a defined attack and moderate decay
     - Avoid instruments that can play a note forever, like organs, woodwinds. They work, but strummed open strings will play forever until a fret is pressed
-    - Avoid extremely distorted instruments that have a an excessive amount of harmonics or instruments that modulate pitch a lot
+    - Avoid extremely distorted instruments that have a an excessive amount of harmonics, instruments that modulate pitch a lot, or "spacey" pads
 
