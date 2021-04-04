@@ -57,7 +57,7 @@ A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRout
 
     ![RS_ASIO configuration](/Images/rsasioSettings.png "RS_ASIO is picky. It needs to saved exactly like this")
 
-    ![RS-Mods RS_ASIO window](/Images/rsMods_rsasioSEttings.png "It's all teal and stuff")
+    ![RS-Mods RS_ASIO window](/Images/rsMods_rsasioSettings.png "It's all teal and stuff")
 
 8. Boot up Rocksmith 2014 Remastered. You should now have audio from the synth you selected in Reaper going through the game! You're playing with plastic guitars now, you Guitar Hero, you!
 9. Check your levels in Reaper so that you are not clipping your MIDI output. Adjust output gain as necessary so that it doesn't clip. Play all strings with a little force to max out the note velocity on each string
