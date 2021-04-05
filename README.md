@@ -111,5 +111,5 @@ Limitations with using this setup as a meaningful way of playing Rocksmith 2014 
 - Remember that Rocksmith 2014 works by detecting the pitch of the notes out of your electric guitar or bass. For best results, use a sample or VSTi that mimics a plucked stringed instrument, like a harp, harpsichord, lute, etc
     - I've had some great success with e-pianos that have a defined attack and moderate decay
     - Avoid instruments that can play a note forever, like organs, woodwinds. They work, but strummed open strings will play forever until a fret is pressed
-    - Avoid extremely distorted instruments that have a an excessive amount of harmonics, instruments that modulate pitch a lot, or "spacey" pads
+    - Avoid extremely distorted instruments that have an excessive amount of harmonics, instruments that modulate pitch a lot, or "spacey" pads
 
