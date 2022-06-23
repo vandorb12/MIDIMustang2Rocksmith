@@ -30,7 +30,7 @@ Presented in no particular order because reasons.
 
 A lot of the necessary setup is based on other tutorials for RS_ASIO and ReaRoute. I'm including the general setup here just for flow. Please check out this awesome written tutorial from [lastpixel.tv](https://lastpixel.tv/low-latency-rocksmith-obs-streaming-with-software-effects/), or if you're visual use this [YouTube Video Tutorial](https://www.youtube.com/watch?v=gBlOokiYPUU) from DeathlySin/VictoriousSponge.
 
-1. Start Reaper 32bit and create a new project. Give the project a name you can remember and save the project in a directory you can remember
+1. Start Reaper and create a new project. Give the project a name you can remember and save the project in a directory you can remember
 2. Check your project preferences so that you're set to 48KHz sampling 
 
     ![Sample rate settings for project](/Images/projectSettings.png "File > Project Settings or Alt+Enter on Windows")
